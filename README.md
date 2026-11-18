@@ -62,13 +62,13 @@ APK assinado pronto (também disponível na
 [release](https://github.com/clebersys/divitrix/releases)):
 
 ```
-dist/Divitrix-1.3.0-release.apk
+dist/Divitrix-1.0.0-release.apk
 ```
 
 Via ADB:
 
 ```bash
-adb install "dist/Divitrix-1.3.0-release.apk"
+adb install "dist/Divitrix-1.0.0-release.apk"
 ```
 
 Ou copie o APK para o celular e instale permitindo "fontes desconhecidas".
@@ -116,7 +116,7 @@ Saídas:
 
 ### Assinatura
 
-O release usa o keystore `keystore/divide30s-release.jks` (alias `divide30s`).
+O release usa o keystore `keystore/divitrix-release.jks` (alias `divitrix`).
 As senhas ficam em `keystore.properties`, ambos fora do Git. Para configurar do
 zero, copie [`keystore.properties.example`](keystore.properties.example).
 

@@ -57,7 +57,7 @@ jarsigner -verify -verbose -certs app/build/outputs/bundle/release/app-release.a
 ### Play App Signing
 
 No primeiro envio, o Play Console oferece o **Play App Signing** (obrigatório
-para apps novos). O keystore `keystore/divide30s-release.jks` passa a ser a
+para apps novos). O keystore `keystore/divitrix-release.jks` passa a ser a
 **upload key** — é ele que assina o AAB enviado. O Google guarda a chave final
 de assinatura.
 
@@ -73,13 +73,13 @@ de assinatura.
 | Item | Valor |
 |---|---|
 | `applicationId` | `com.cleber.divitrix` |
-| `versionCode` | `6` |
-| `versionName` | `1.3.0` |
-
-> **Renomeado para Divitrix.** O `applicationId` mudou de `com.cleber.videosplit30` para `com.cleber.divitrix`. Por isso, na Play Store e no celular, o Divitrix é um app **novo** e não atualiza o Divide 30s. Se o app antigo tiver sido publicado, ele precisa ser despublicado separadamente.
+| `versionCode` | `1` |
+| `versionName` | `1.0.0` |
 | `minSdk` / `targetSdk` / `compileSdk` | `26` / `36` / `36` |
-| SHA-256 do APK | `76a7c44dec4b20a41ade7cea0fbf2b3f515e9d6472111438094b252847626b17` |
-| SHA-256 do AAB | `3bc894e8396b9449eff6ab391825619211233e2905ac91e2282bacc4a44d1d04` |
+| SHA-256 do APK | `756ead5a822ff36784177f98c91c2f604f21746dc4f83bed9a6896a4c10de2e5` |
+| SHA-256 do AAB | `dd00cd1cb29ad860f95e71993fca9ad250acc810dee7aeef57db645836966d7e` |
+
+> **App novo, ainda em desenvolvimento.** O `applicationId` deste projeto é `com.cleber.divitrix` desde o início da marca Divitrix. Como o pacote mudou em relação ao protótipo anterior (Divide 30s), o Android trata o Divitrix como um app instalado à parte: desinstale o protótipo antes de testar.
 
 ---
 
@@ -260,11 +260,12 @@ Classificação esperada: **Livre / Everyone**.
 
 ---
 
-## 9. Notas de versão sugeridas (v1.3.0)
+## 9. Notas de versão sugeridas (v1.0.0)
 
 ```
-O app agora se chama Divitrix (antes Divide 30s).
+Primeira versão do Divitrix (ainda em desenvolvimento).
 
+• Nome e identidade: Divitrix.
 • Tela de pré-visualização: ao escolher o vídeo, toque para dar play e conferir se é o arquivo correto antes de dividir.
 • Mantém a divisão em partes de ~30s sem reencodificar (qualidade original).
 • Compartilha todas as partes de uma vez no WhatsApp (inclui modo documento).

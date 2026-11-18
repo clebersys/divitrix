@@ -2,7 +2,7 @@
 
 ## Instalar
 
-1. Copie `Divitrix-1.3.0-release.apk` para o celular (cabo, Drive, Telegram etc.).
+1. Copie `Divitrix-1.0.0-release.apk` para o celular (cabo, Drive, Telegram etc.).
 2. Abra o arquivo e permita **"Instalar apps desconhecidos"** para o app usado
    na abertura (Arquivos, Chrome etc.).
 3. Confirme a instalação.
@@ -10,7 +10,7 @@
 Via ADB:
 
 ```bash
-adb install "dist/Divitrix-1.3.0-release.apk"
+adb install "dist/Divitrix-1.0.0-release.apk"
 ```
 
 O app não pede nenhuma permissão de câmera, microfone, contatos ou
@@ -93,4 +93,4 @@ espaço do original. O limite interno é de 5.000 partes.
 **Perdi o keystore. E agora?**
 Sem o keystore original não é possível atualizar o app já instalado; será
 preciso desinstalar e instalar uma nova assinatura. Guarde
-`keystore/divide30s-release.jks` e `keystore.properties` em local seguro.
+`keystore/divitrix-release.jks` e `keystore.properties` em local seguro.
