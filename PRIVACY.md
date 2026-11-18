@@ -39,9 +39,9 @@ apps é concedida por `FileProvider` no momento do compartilhamento.
 
 ## Compartilhamento com terceiros
 
-Ao tocar em **Compartilhar no WhatsApp**, **Enviar como documento** ou
-**Compartilhar em outro app**, o Android abre o app de destino escolhido por
-você e entrega os arquivos selecionados. A partir desse momento, o tratamento
+Ao tocar em **Compartilhar no WhatsApp** ou **Compartilhar em outro app**, o
+Android abre o app de destino escolhido por você e entrega os arquivos
+selecionados. A partir desse momento, o tratamento
 dos dados passa a ser responsabilidade do aplicativo escolhido (por exemplo, a
 política de privacidade do WhatsApp). O DiviTrix não tem controle nem acesso
 ao que o app de destino faz com os arquivos.

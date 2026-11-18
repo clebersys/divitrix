@@ -182,22 +182,6 @@ class MainActivity : ComponentActivity() {
                                             ).show()
                                         }
                                     },
-                                    onWhatsAppDocument = {
-                                        runCatching {
-                                            ShareUtils.shareToWhatsApp(
-                                                context,
-                                                current.files,
-                                                current.mimeType,
-                                                asDocument = true,
-                                            )
-                                        }.onFailure {
-                                            Toast.makeText(
-                                                context,
-                                                "Não foi possível abrir o compartilhamento",
-                                                Toast.LENGTH_LONG,
-                                            ).show()
-                                        }
-                                    },
                                     onReset = vm::reset,
                                 )
 
@@ -584,7 +568,6 @@ private fun DoneContent(
     done: SplitViewModel.State.Done,
     onWhatsApp: () -> Unit,
     onOtherApps: () -> Unit,
-    onWhatsAppDocument: () -> Unit,
     onReset: () -> Unit,
 ) {
     Column(modifier = Modifier.fillMaxSize()) {
@@ -636,18 +619,6 @@ private fun DoneContent(
         Spacer(Modifier.height(14.dp))
 
         WhatsAppButton(onClick = onWhatsApp)
-        Spacer(Modifier.height(10.dp))
-        OutlinedButton(
-            onClick = onWhatsAppDocument,
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(52.dp),
-            shape = RoundedCornerShape(16.dp),
-        ) {
-            Icon(Icons.Default.Share, contentDescription = null, tint = TextPrimary)
-            Spacer(Modifier.width(8.dp))
-            Text("Enviar como documento (sem compressão)", color = TextPrimary, fontSize = 14.sp)
-        }
         Spacer(Modifier.height(10.dp))
         OutlinedButton(
             onClick = onOtherApps,

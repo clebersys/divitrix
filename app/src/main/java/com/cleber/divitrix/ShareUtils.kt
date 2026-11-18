@@ -16,11 +16,8 @@ object ShareUtils {
         context: Context,
         files: List<File>,
         mimeType: String,
-        asDocument: Boolean = false,
     ) {
-        // Como documento (application/octet-stream) o WhatsApp não recomprime o vídeo.
-        val shareMime = if (asDocument) "application/octet-stream" else mimeType
-        val base = buildIntent(context, files, shareMime)
+        val base = buildIntent(context, files, mimeType)
         val installed = WHATSAPP_PACKAGES.firstOrNull { pkg ->
             runCatching { context.packageManager.getPackageInfo(pkg, 0) }.isSuccess
         }
@@ -35,7 +32,7 @@ object ShareUtils {
                 // alguns aparelhos bloqueiam o envio direto; usa o seletor
             }
         }
-        shareToAnyApp(context, files, shareMime)
+        shareToAnyApp(context, files, mimeType)
     }
 
     fun shareToAnyApp(context: Context, files: List<File>, mimeType: String) {

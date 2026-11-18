@@ -155,7 +155,7 @@ Vantagens: não exige permissão de armazenamento (scoped storage) e o
 
 ```kotlin
 Intent(Intent.ACTION_SEND_MULTIPLE).apply {
-    type = if (documento) "application/octet-stream" else mimeDoVídeo
+    type = mimeDoVídeo
     putParcelableArrayListExtra(Intent.EXTRA_STREAM, uris)
     clipData = clipComTodasAsUris
     addFlags(FLAG_GRANT_READ_URI_PERMISSION)
@@ -165,8 +165,8 @@ Intent(Intent.ACTION_SEND_MULTIPLE).apply {
 - `ClipData` com todas as URIs garante a concessão de permissão para cada item.
 - WhatsApp direto: tenta `com.whatsapp` e `com.whatsapp.w4b`; se não existir,
   cai no seletor padrão.
-- `application/octet-stream` faz o WhatsApp tratar como documento, evitando
-  recompressão.
+- O envio segue como `video/mp4`; a recompressão (ou não) do arquivo passa a ser
+  decisão do app de destino.
 
 ## Decisões e alternativas descartadas
 

@@ -16,8 +16,6 @@ Aplicativo Android que divide vídeos em partes de **30 segundos sem reencodar**
   original e o processamento é rápido.
 - 📤 Compartilha o grupo inteiro de uma vez (`ACTION_SEND_MULTIPLE`).
 - 🟢 Atalho direto para o WhatsApp, com fallback para o seletor do sistema.
-- 📄 Opção **"Enviar como documento (sem compressão)"** para o WhatsApp não
-  recomprimir os vídeos.
 - 📊 Progresso em tempo real e cancelamento.
 - 💾 Checagem de espaço livre antes de começar.
 - 🧹 Limpa automaticamente as partes da divisão anterior.
@@ -83,9 +81,9 @@ Ou copie o APK para o celular e instale permitindo "fontes desconhecidas".
 3. Confira nome, duração e tamanho e toque em **Dividir em partes de 30s**.
 4. Ao terminar, escolha:
    - **Compartilhar no WhatsApp** — envia todas as partes de uma vez;
-   - **Enviar como documento (sem compressão)** — mantém o arquivo original
-     (o WhatsApp não recomprime);
-   - **Compartilhar em outro app** — abre o seletor do Android.
+   - **Compartilhar em outro app** — abre o seletor do Android (Drive, e-mail,
+     Telegram etc.), inclusive para enviar o arquivo sem passar pela
+     recompressão do WhatsApp.
 
 Guia detalhado: [docs/COMO_USAR.md](docs/COMO_USAR.md)
 
@@ -178,9 +176,9 @@ Detalhes técnicos: [docs/ARQUITETURA.md](docs/ARQUITETURA.md)
 
 - **Corte em keyframe**: partes de 30–32s, não 30,000s exatos.
 - **Containers**: MP4/H.264/HEVC (padrão de celular). WebM/VP9 requer Android 10+.
-- **WhatsApp**: recomprime vídeos enviados como mídia; use o modo documento para
-  manter o original. O app também pode esbarrar no limite de arquivos por envio
-  do WhatsApp.
+- **WhatsApp**: recomprime vídeos enviados como mídia. Para manter o arquivo
+  original, compartilhe por outro app (Drive, e-mail etc.). O app também pode
+  esbarrar no limite de arquivos por envio do WhatsApp.
 - **Armazenamento**: as partes ficam na pasta privada do app
   (`Android/data/com.cleber.divitrix/files/Movies/Divitrix/`) e não
   aparecem na galeria; são apagadas ao iniciar uma nova divisão.

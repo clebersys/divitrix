@@ -76,8 +76,8 @@ de assinatura.
 | `versionCode` | `1` |
 | `versionName` | `1.0.0` |
 | `minSdk` / `targetSdk` / `compileSdk` | `26` / `36` / `36` |
-| SHA-256 do APK | `f4267e01dbca064618fc2f66dc9a0969dcc9bbd612ef6269ef9527a2274f4bc9` |
-| SHA-256 do AAB | `c6abb0511eb300b9027f22dc8488930ff39377cf26e6482686a91bc0d98dc194` |
+| SHA-256 do APK | `22013e7dd02b78ee0cd2872c90681e1fe799bcda295c84155effbbf0f3b940a7` |
+| SHA-256 do AAB | `429f502eb46b3558117da68f5ddef04c1f6efa6c34c80cf6697b684ac18312f8` |
 
 > **App novo, ainda em desenvolvimento.** O `applicationId` deste projeto é `com.cleber.divitrix` desde o início da marca Divitrix. Como o pacote mudou em relação ao protótipo anterior (Divide 30s), o Android trata o Divitrix como um app instalado à parte: desinstale o protótipo antes de testar.
 
@@ -109,7 +109,6 @@ PRINCIPAIS RECURSOS
 • Divisão sem perda de qualidade: nenhum decoder ou encoder é usado, então o vídeo não é recompactado e não perde nitidez.
 • Rápido: como não há recompressão, o tempo de processamento é muito menor do que o de um editor tradicional.
 • Compartilhamento em lote: depois de dividir, envie TODAS as partes de uma vez para o WhatsApp ou para qualquer outro app.
-• Modo documento: envie as partes como documento para o WhatsApp não recomprimir o vídeo.
 • Barra de progresso e cancelamento a qualquer momento.
 • Verificação de espaço livre antes de começar.
 • Limpeza automática das partes anteriores para não ocupar espaço à toa.
@@ -118,7 +117,7 @@ COMO USAR
 
 1. Toque em "Escolher vídeo" e selecione o arquivo.
 2. Confira a duração e o tamanho e toque em "Dividir em partes de 30s".
-3. Escolha "Compartilhar no WhatsApp", "Enviar como documento" ou "Compartilhar em outro app".
+3. Escolha "Compartilhar no WhatsApp" ou "Compartilhar em outro app".
 
 SOBRE O CORTE
 
@@ -268,7 +267,7 @@ Primeira versão do DiviTrix (ainda em desenvolvimento).
 • Nome e identidade: DiviTrix.
 • Tela de pré-visualização: ao escolher o vídeo, toque para dar play e conferir se é o arquivo correto antes de dividir.
 • Mantém a divisão em partes de ~30s sem reencodificar (qualidade original).
-• Compartilha todas as partes de uma vez no WhatsApp (inclui modo documento).
+• Compartilha todas as partes de uma vez no WhatsApp ou em outro app.
 • As partes da divisão anterior são apagadas ao escolher outro vídeo.
 • Compatível com Android 8.0+ e alinhado ao targetSdk 36.
 ```

@@ -29,19 +29,19 @@ reencodado — é só cópia de dados.
 
 ## Compartilhar no WhatsApp
 
-Na tela de resultado você tem três opções:
+Na tela de resultado você tem duas opções:
 
 | Botão | O que faz |
 |---|---|
 | **Compartilhar no WhatsApp** | Abre o WhatsApp com **todas as partes** anexadas de uma vez. |
-| **Enviar como documento (sem compressão)** | Envia como documento; o WhatsApp não recomprime e o arquivo chega idêntico. |
 | **Compartilhar em outro app** | Abre o seletor do Android (Drive, Telegram, e-mail etc.). |
 
 ### Por que às vezes o WhatsApp comprime?
 
 Quando você envia um vídeo como **mídia**, o WhatsApp reencoda para reduzir o
-tamanho. Para manter a qualidade original, use **"Enviar como documento (sem
-compressão)"**. Nesse modo o destinatário recebe o MP4 original.
+tamanho. Se precisar do arquivo idêntico ao original, use **Compartilhar em
+outro app** e escolha Drive, e-mail ou outro destino que envie o MP4 sem
+recompressão.
 
 ### Limite de arquivos
 
@@ -49,7 +49,6 @@ O WhatsApp pode limitar quantos vídeos aceita por envio (varia por versão). Se
 ele recusar o grupo inteiro:
 
 - envie em grupos menores;
-- use o modo documento;
 - ou compartilhe por outro app.
 
 ## Onde ficam os arquivos
