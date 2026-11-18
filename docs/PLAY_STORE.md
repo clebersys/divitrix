@@ -13,7 +13,7 @@ sua conta de desenvolvedor.
 | `targetSdk` 36 (obrigatório para novos apps desde ago/2026) | ✅ `targetSdk = 36` / `compileSdk = 36` |
 | Android App Bundle (`.aab`) para apps novos | ✅ `./gradlew bundleRelease` |
 | Assinatura de release | ✅ keystore local (vira *upload key*) |
-| `versionCode`/`versionName` crescentes | ✅ `2` / `1.1.0` |
+| `versionCode`/`versionName` crescentes | ✅ `2` / `1.0.1` |
 | `android:exported` explícito nas activities | ✅ |
 | Backup desativado (vídeos grandes/temporários) | ✅ `allowBackup="false"` |
 | Callback de gesto "voltar" do Android 13+ | ✅ `enableOnBackInvokedCallback="true"` |
@@ -79,7 +79,7 @@ de assinatura.
 | SHA-256 do APK | `e4c8fb7d152c63d4e49e3c906ce0d43b96587f44d29c05ae5e1bb1079ecd9c00` |
 | SHA-256 do AAB | `043ab64783ed75f05adc44007ae5eb1d0bfbbb6dcc2e9e42410862fcbf8c904a` |
 
-> **App novo, ainda em desenvolvimento.** O `applicationId` deste projeto é `com.cleber.divitrix` desde o início da marca Divitrix. Como o pacote mudou em relação ao protótipo anterior (Divide 30s), o Android trata o Divitrix como um app instalado à parte: desinstale o protótipo antes de testar.
+> **App novo, ainda em desenvolvimento.** O `applicationId` deste projeto é `com.cleber.divitrix` desde o início da marca Divitrix. Como o pacote mudou em relação ao protótipo anterior (Divide 30s), o Android trata o DiviTrix como um app instalado à parte: desinstale o protótipo antes de testar.
 
 ---
 
@@ -155,11 +155,11 @@ Código-fonte: https://github.com/clebersys/divitrix
 
 | Recurso | Especificação | Arquivo |
 |---|---|---|
-| Ícone do app | PNG 512×512, 32 bits, sem transparência | `store/icon-512.png` |
+| Ícone do app | PNG 512×512, 32 bits | `store/icon-512.png` |
 | Feature graphic | PNG/JPEG 1024×500, sem transparência | `store/feature-graphic-1024x500.png` |
-| Screenshot 1 | 1080×2400 (9:16) | `store/screenshot-1.png` |
-| Screenshot 2 | 1080×2400 (9:16) | `store/screenshot-2.png` |
-| Screenshot 3 | 1080×2400 (9:16) | `store/screenshot-3.png` |
+| Screenshot 1 | 1080×1920 (9:16) | `store/screenshot-1.png` |
+| Screenshot 2 | 1080×1920 (9:16) | `store/screenshot-2.png` |
+| Screenshot 3 | 1080×1920 (9:16) | `store/screenshot-3.png` |
 
 Requisitos oficiais dos screenshots: mínimo 2, máximo 8, JPEG ou PNG de 24
 bits, entre 320 px e 3840 px no maior lado, proporção entre 16:9 e 9:16.
