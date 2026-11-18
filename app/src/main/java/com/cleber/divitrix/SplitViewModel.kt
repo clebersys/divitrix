@@ -1,4 +1,4 @@
-package com.cleber.videosplit30
+package com.cleber.divitrix
 
 import android.app.Application
 import android.media.MediaMetadataRetriever
@@ -83,7 +83,7 @@ class SplitViewModel(application: Application) : AndroidViewModel(application) {
                     val app = getApplication<Application>()
                     val root = app.getExternalFilesDir(Environment.DIRECTORY_MOVIES)
                         ?: File(app.filesDir, "videos")
-                    val base = File(root, "Divide30s")
+                    val base = File(root, "Divitrix")
 
                     if (ready.sizeBytes > 0) {
                         val available = StatFs(root.absolutePath).availableBytes
@@ -164,7 +164,7 @@ class SplitViewModel(application: Application) : AndroidViewModel(application) {
         val app = getApplication<Application>()
         val root = app.getExternalFilesDir(Environment.DIRECTORY_MOVIES)
             ?: File(app.filesDir, "videos")
-        File(root, "Divide30s").listFiles()?.forEach { old ->
+        File(root, "Divitrix").listFiles()?.forEach { old ->
             runCatching { old.deleteRecursively() }
         }
     }

@@ -1,8 +1,8 @@
-# Política de Privacidade — Divide 30s
+# Política de Privacidade — Divitrix
 
 **Última atualização: 13 de novembro de 2026**
 
-O **Divide 30s** (`com.cleber.videosplit30`) é um aplicativo Android que divide
+O **Divitrix** (`com.cleber.divitrix`) é um aplicativo Android que divide
 vídeos em partes de aproximadamente 30 segundos, sem reencodificar, e permite
 compartilhar as partes por outros aplicativos — principalmente o WhatsApp.
 
@@ -43,7 +43,7 @@ Ao tocar em **Compartilhar no WhatsApp**, **Enviar como documento** ou
 **Compartilhar em outro app**, o Android abre o app de destino escolhido por
 você e entrega os arquivos selecionados. A partir desse momento, o tratamento
 dos dados passa a ser responsabilidade do aplicativo escolhido (por exemplo, a
-política de privacidade do WhatsApp). O Divide 30s não tem controle nem acesso
+política de privacidade do WhatsApp). O Divitrix não tem controle nem acesso
 ao que o app de destino faz com os arquivos.
 
 ## Armazenamento e exclusão
@@ -51,11 +51,11 @@ ao que o app de destino faz com os arquivos.
 As partes geradas ficam em uma pasta privada do app:
 
 ```
-Android/data/com.cleber.videosplit30/files/Movies/Divide30s/<data_hora>/
+Android/data/com.cleber.divitrix/files/Movies/Divitrix/<data_hora>/
 ```
 
 Esses arquivos são apagados automaticamente quando você inicia uma nova divisão.
-Para removê-los imediatamente, use **Configurações → Apps → Divide 30s →
+Para removê-los imediatamente, use **Configurações → Apps → Divitrix →
 Armazenamento → Limpar dados**, ou desinstale o app. Nenhum dado permanece após
 a desinstalação.
 
@@ -67,22 +67,22 @@ nenhum usuário, incluindo crianças.
 ## Alterações nesta política
 
 Mudanças serão publicadas neste mesmo arquivo no repositório
-<https://github.com/clebersys/divide30s>. A data no topo indica a última
+<https://github.com/clebersys/divitrix>. A data no topo indica a última
 revisão.
 
 ## Contato
 
 Dúvidas sobre privacidade: abra uma issue em
-<https://github.com/clebersys/divide30s/issues> ou escreva para
+<https://github.com/clebersys/divitrix/issues> ou escreva para
 **clebersys@users.noreply.github.com**.
 
 ---
 
-# Privacy Policy — Divide 30s
+# Privacy Policy — Divitrix
 
 **Last updated: November 13, 2026**
 
-**Divide 30s** splits videos into ~30-second parts without re-encoding and lets
+**Divitrix** splits videos into ~30-second parts without re-encoding and lets
 you share those parts through other apps, mainly WhatsApp.
 
 **The app does not collect, transmit, or store personal data on any server.**
@@ -97,4 +97,4 @@ All processing happens on your device.
 - When you tap a share button, files are handed to the app you choose; from then
   on that app's privacy policy applies.
 
-Contact: <https://github.com/clebersys/divide30s/issues>
+Contact: <https://github.com/clebersys/divitrix/issues>

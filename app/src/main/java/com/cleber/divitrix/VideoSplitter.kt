@@ -1,4 +1,4 @@
-package com.cleber.videosplit30
+package com.cleber.divitrix
 
 import android.content.Context
 import android.media.MediaCodec

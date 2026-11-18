@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "VideoSplit30"
+rootProject.name = "Divitrix"
 include(":app")

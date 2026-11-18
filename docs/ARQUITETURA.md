@@ -134,11 +134,11 @@ Cortar em 30,000s exatos exigiria reencodar o trecho inicial de cada parte.
 ### Onde os arquivos ficam
 
 ```
-getExternalFilesDir(Movies)/Divide30s/yyyyMMdd_HHmmss/parte_0001.mp4
+getExternalFilesDir(Movies)/Divitrix/yyyyMMdd_HHmmss/parte_0001.mp4
 ```
 
 Se o armazenamento externo não estiver disponível, usa
-`filesDir/videos/Divide30s/...`. Ambas as raízes estão declaradas em
+`filesDir/videos/Divitrix/...`. Ambas as raízes estão declaradas em
 `res/xml/file_paths.xml`:
 
 ```xml
@@ -225,7 +225,7 @@ divisão concluída.
 ### Permissões
 
 O APK final declara apenas
-`com.cleber.videosplit30.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`, adicionada
+`com.cleber.divitrix.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`, adicionada
 automaticamente pela AndroidX para receivers internos. **Não há** `INTERNET`,
 armazenamento, câmera, microfone ou qualquer permissão perigosa — o que também
 simplifica o formulário de Segurança dos dados da Play Store.

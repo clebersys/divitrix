@@ -1,4 +1,4 @@
-package com.cleber.videosplit30
+package com.cleber.divitrix
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -249,7 +249,7 @@ private fun Header() {
         Spacer(Modifier.width(12.dp))
         Column {
             Text(
-                text = "Divide 30s",
+                text = "Divitrix",
                 color = TextPrimary,
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,

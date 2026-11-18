@@ -72,12 +72,14 @@ de assinatura.
 
 | Item | Valor |
 |---|---|
-| `applicationId` | `com.cleber.videosplit30` |
-| `versionCode` | `5` |
-| `versionName` | `1.2.1` |
+| `applicationId` | `com.cleber.divitrix` |
+| `versionCode` | `6` |
+| `versionName` | `1.3.0` |
+
+> **Renomeado para Divitrix.** O `applicationId` mudou de `com.cleber.videosplit30` para `com.cleber.divitrix`. Por isso, na Play Store e no celular, o Divitrix é um app **novo** e não atualiza o Divide 30s. Se o app antigo tiver sido publicado, ele precisa ser despublicado separadamente.
 | `minSdk` / `targetSdk` / `compileSdk` | `26` / `36` / `36` |
-| SHA-256 do APK | `56d800cc44efb2ba2e5faf1092a117b96fa2f43c64653e0e4f58ea192c20cd44` |
-| SHA-256 do AAB | `830a07ef19b5c6c2003d02c6d1b8ea20cbdf4b689a7ad5605ce3490f609b2914` |
+| SHA-256 do APK | `76a7c44dec4b20a41ade7cea0fbf2b3f515e9d6472111438094b252847626b17` |
+| SHA-256 do AAB | `3bc894e8396b9449eff6ab391825619211233e2905ac91e2282bacc4a44d1d04` |
 
 ---
 
@@ -86,7 +88,7 @@ de assinatura.
 ### Nome do app (máx. 30 caracteres)
 
 ```
-Divide 30s — vídeos em partes
+Divitrix — vídeos em partes
 ```
 
 ### Descrição curta (máx. 80 caracteres)
@@ -98,7 +100,7 @@ Divida vídeos em partes de 30s sem perder qualidade e envie tudo de uma vez.
 ### Descrição completa (máx. 4000 caracteres)
 
 ```
-O Divide 30s corta seus vídeos em partes de aproximadamente 30 segundos SEM reencodificar. Isso significa que a qualidade, a resolução, o áudio e os metadados originais são preservados exatamente como estavam — o app apenas copia os dados já comprimidos para novos arquivos.
+O Divitrix corta seus vídeos em partes de aproximadamente 30 segundos SEM reencodificar. Isso significa que a qualidade, a resolução, o áudio e os metadados originais são preservados exatamente como estavam — o app apenas copia os dados já comprimidos para novos arquivos.
 
 É a ferramenta ideal para quem precisa dividir vídeos longos para o WhatsApp, para stories, para enviar por e-mail ou para contornar limites de tamanho de arquivo.
 
@@ -130,7 +132,7 @@ REQUISITOS
 
 Android 8.0 (API 26) ou superior. Formatos mais comuns de celular (MP4 com H.264/HEVC + AAC) são totalmente suportados; WebM/VP9 requer Android 10 ou superior.
 
-Código-fonte: https://github.com/clebersys/divide30s
+Código-fonte: https://github.com/clebersys/divitrix
 ```
 
 ### Categoria e tags
@@ -142,9 +144,9 @@ Código-fonte: https://github.com/clebersys/divide30s
 ### Detalhes de contato
 
 - **E-mail:** use um e-mail que você acessa (obrigatório e público).
-- **Site:** `https://github.com/clebersys/divide30s`
+- **Site:** `https://github.com/clebersys/divitrix`
 - **Política de privacidade:**
-  `https://github.com/clebersys/divide30s/blob/main/PRIVACY.md`
+  `https://github.com/clebersys/divitrix/blob/main/PRIVACY.md`
 
 > A URL da política precisa ser pública e abrir sem login — o link acima atende.
 
@@ -258,10 +260,10 @@ Classificação esperada: **Livre / Everyone**.
 
 ---
 
-## 9. Notas de versão sugeridas (v1.2.1)
+## 9. Notas de versão sugeridas (v1.3.0)
 
 ```
-Novidades desta versão.
+O app agora se chama Divitrix (antes Divide 30s).
 
 • Tela de pré-visualização: ao escolher o vídeo, toque para dar play e conferir se é o arquivo correto antes de dividir.
 • Mantém a divisão em partes de ~30s sem reencodificar (qualidade original).

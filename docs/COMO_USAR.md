@@ -2,7 +2,7 @@
 
 ## Instalar
 
-1. Copie `Divide30s-1.2.1-release.apk` para o celular (cabo, Drive, Telegram etc.).
+1. Copie `Divitrix-1.3.0-release.apk` para o celular (cabo, Drive, Telegram etc.).
 2. Abra o arquivo e permita **"Instalar apps desconhecidos"** para o app usado
    na abertura (Arquivos, Chrome etc.).
 3. Confirme a instalação.
@@ -10,7 +10,7 @@
 Via ADB:
 
 ```bash
-adb install "dist/Divide30s-1.2.1-release.apk"
+adb install "dist/Divitrix-1.3.0-release.apk"
 ```
 
 O app não pede nenhuma permissão de câmera, microfone, contatos ou
@@ -18,7 +18,7 @@ armazenamento.
 
 ## Dividir um vídeo
 
-1. Abra o **Divide 30s**.
+1. Abra o **Divitrix**.
 2. Toque em **Escolher vídeo**.
 3. Selecione o vídeo no seletor do Android.
 4. Confira a **pré-visualização** e toque no vídeo para dar play e confirmar que é o arquivo correto.
@@ -55,7 +55,7 @@ ele recusar o grupo inteiro:
 ## Onde ficam os arquivos
 
 ```
-Android/data/com.cleber.videosplit30/files/Movies/Divide30s/<data_hora>/
+Android/data/com.cleber.divitrix/files/Movies/Divitrix/<data_hora>/
 ```
 
 Essa pasta é privada do app; os arquivos **não aparecem na galeria**. Ao iniciar

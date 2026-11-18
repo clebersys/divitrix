@@ -14,15 +14,15 @@ val keystoreProperties = Properties().apply {
 }
 
 android {
-    namespace = "com.cleber.videosplit30"
+    namespace = "com.cleber.divitrix"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.cleber.videosplit30"
+        applicationId = "com.cleber.divitrix"
         minSdk = 26
         targetSdk = 36
-        versionCode = 5
-        versionName = "1.2.1"
+        versionCode = 6
+        versionName = "1.3.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

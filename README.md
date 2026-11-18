@@ -1,9 +1,9 @@
-# Divide 30s
+# Divitrix
 
 Aplicativo Android que divide vídeos em partes de **30 segundos sem reencodar**
 (sem perder qualidade) e compartilha **todas as partes de uma vez** pelo WhatsApp.
 
-[![Release](https://img.shields.io/github/v/release/clebersys/divide30s)](https://github.com/clebersys/divide30s/releases)
+[![Release](https://img.shields.io/github/v/release/clebersys/divitrix)](https://github.com/clebersys/divitrix/releases)
 [![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)](LICENSE)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84)](https://developer.android.com)
 
@@ -59,26 +59,26 @@ flowchart LR
 ## Instalação
 
 APK assinado pronto (também disponível na
-[release](https://github.com/clebersys/divide30s/releases)):
+[release](https://github.com/clebersys/divitrix/releases)):
 
 ```
-dist/Divide30s-1.2.1-release.apk
+dist/Divitrix-1.3.0-release.apk
 ```
 
 Via ADB:
 
 ```bash
-adb install "dist/Divide30s-1.2.1-release.apk"
+adb install "dist/Divitrix-1.3.0-release.apk"
 ```
 
 Ou copie o APK para o celular e instale permitindo "fontes desconhecidas".
 
 > O APK de release tem assinatura diferente do debug. Se você instalou o debug,
-> desinstale antes: `adb uninstall com.cleber.videosplit30`.
+> desinstale antes: `adb uninstall com.cleber.divitrix`.
 
 ## Uso
 
-1. Abra o **Divide 30s**.
+1. Abra o **Divitrix**.
 2. Toque em **Escolher vídeo** e selecione o vídeo.
 3. Confira nome, duração e tamanho e toque em **Dividir em partes de 30s**.
 4. Ao terminar, escolha:
@@ -159,7 +159,7 @@ política de privacidade e recursos gráficos prontos.
 ## Estrutura
 
 ```
-app/src/main/java/com/cleber/videosplit30/
+app/src/main/java/com/cleber/divitrix/
 ├── MainActivity.kt      # UI Compose + navegação de estados
 ├── SplitViewModel.kt    # estado, metadados, progresso, espaço em disco
 ├── VideoSplitter.kt     # divisão lossless com MediaExtractor/MediaMuxer
@@ -182,7 +182,7 @@ Detalhes técnicos: [docs/ARQUITETURA.md](docs/ARQUITETURA.md)
   manter o original. O app também pode esbarrar no limite de arquivos por envio
   do WhatsApp.
 - **Armazenamento**: as partes ficam na pasta privada do app
-  (`Android/data/com.cleber.videosplit30/files/Movies/Divide30s/`) e não
+  (`Android/data/com.cleber.divitrix/files/Movies/Divitrix/`) e não
   aparecem na galeria; são apagadas ao iniciar uma nova divisão.
 - **Assinatura**: este repositório não inclui o keystore nem as senhas.
 
