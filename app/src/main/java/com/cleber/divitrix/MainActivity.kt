@@ -249,7 +249,7 @@ private fun Header() {
         Spacer(Modifier.width(12.dp))
         Column {
             Text(
-                text = "Divitrix",
+                text = "DiviTrix",
                 color = TextPrimary,
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,

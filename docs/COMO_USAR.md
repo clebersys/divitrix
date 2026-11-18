@@ -18,7 +18,7 @@ armazenamento.
 
 ## Dividir um vídeo
 
-1. Abra o **Divitrix**.
+1. Abra o **DiviTrix**.
 2. Toque em **Escolher vídeo**.
 3. Selecione o vídeo no seletor do Android.
 4. Confira a **pré-visualização** e toque no vídeo para dar play e confirmar que é o arquivo correto.

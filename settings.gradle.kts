@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Divitrix"
+rootProject.name = "DiviTrix"
 include(":app")

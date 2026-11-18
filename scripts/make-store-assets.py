@@ -103,7 +103,7 @@ def build_feature_graphic() -> None:
     subtitle_font = ImageFont.truetype(FONT_REGULAR, 34)
     badge_font = ImageFont.truetype(FONT_BOLD, 26)
 
-    title = "Divitrix"
+    title = "DiviTrix"
     draw.text((432, 140), title, font=title_font, fill=TEXT_PRIMARY)
 
     lines = ["Vídeos em partes de 30s", "sem perder qualidade"]

@@ -23,8 +23,8 @@ echo ">> Build da versão $VERSION"
 ./gradlew clean assembleRelease bundleRelease
 
 mkdir -p dist
-cp app/build/outputs/apk/release/app-release.apk "dist/Divitrix-${VERSION}-release.apk"
-cp app/build/outputs/bundle/release/app-release.aab "dist/Divitrix-${VERSION}.aab"
+cp app/build/outputs/apk/release/app-release.apk "dist/DiviTrix-${VERSION}-release.apk"
+cp app/build/outputs/bundle/release/app-release.aab "dist/DiviTrix-${VERSION}.aab"
 
 echo
 echo ">> Artefatos gerados:"

@@ -76,8 +76,8 @@ de assinatura.
 | `versionCode` | `1` |
 | `versionName` | `1.0.0` |
 | `minSdk` / `targetSdk` / `compileSdk` | `26` / `36` / `36` |
-| SHA-256 do APK | `756ead5a822ff36784177f98c91c2f604f21746dc4f83bed9a6896a4c10de2e5` |
-| SHA-256 do AAB | `dd00cd1cb29ad860f95e71993fca9ad250acc810dee7aeef57db645836966d7e` |
+| SHA-256 do APK | `f4267e01dbca064618fc2f66dc9a0969dcc9bbd612ef6269ef9527a2274f4bc9` |
+| SHA-256 do AAB | `c6abb0511eb300b9027f22dc8488930ff39377cf26e6482686a91bc0d98dc194` |
 
 > **App novo, ainda em desenvolvimento.** O `applicationId` deste projeto é `com.cleber.divitrix` desde o início da marca Divitrix. Como o pacote mudou em relação ao protótipo anterior (Divide 30s), o Android trata o Divitrix como um app instalado à parte: desinstale o protótipo antes de testar.
 
@@ -88,7 +88,7 @@ de assinatura.
 ### Nome do app (máx. 30 caracteres)
 
 ```
-Divitrix — vídeos em partes
+DiviTrix — vídeos em partes
 ```
 
 ### Descrição curta (máx. 80 caracteres)
@@ -100,7 +100,7 @@ Divida vídeos em partes de 30s sem perder qualidade e envie tudo de uma vez.
 ### Descrição completa (máx. 4000 caracteres)
 
 ```
-O Divitrix corta seus vídeos em partes de aproximadamente 30 segundos SEM reencodificar. Isso significa que a qualidade, a resolução, o áudio e os metadados originais são preservados exatamente como estavam — o app apenas copia os dados já comprimidos para novos arquivos.
+O DiviTrix corta seus vídeos em partes de aproximadamente 30 segundos SEM reencodificar. Isso significa que a qualidade, a resolução, o áudio e os metadados originais são preservados exatamente como estavam — o app apenas copia os dados já comprimidos para novos arquivos.
 
 É a ferramenta ideal para quem precisa dividir vídeos longos para o WhatsApp, para stories, para enviar por e-mail ou para contornar limites de tamanho de arquivo.
 
@@ -263,9 +263,9 @@ Classificação esperada: **Livre / Everyone**.
 ## 9. Notas de versão sugeridas (v1.0.0)
 
 ```
-Primeira versão do Divitrix (ainda em desenvolvimento).
+Primeira versão do DiviTrix (ainda em desenvolvimento).
 
-• Nome e identidade: Divitrix.
+• Nome e identidade: DiviTrix.
 • Tela de pré-visualização: ao escolher o vídeo, toque para dar play e conferir se é o arquivo correto antes de dividir.
 • Mantém a divisão em partes de ~30s sem reencodificar (qualidade original).
 • Compartilha todas as partes de uma vez no WhatsApp (inclui modo documento).

@@ -1,4 +1,4 @@
-# Divitrix
+# DiviTrix
 
 Aplicativo Android que divide vídeos em partes de **30 segundos sem reencodar**
 (sem perder qualidade) e compartilha **todas as partes de uma vez** pelo WhatsApp.
@@ -78,7 +78,7 @@ Ou copie o APK para o celular e instale permitindo "fontes desconhecidas".
 
 ## Uso
 
-1. Abra o **Divitrix**.
+1. Abra o **DiviTrix**.
 2. Toque em **Escolher vídeo** e selecione o vídeo.
 3. Confira nome, duração e tamanho e toque em **Dividir em partes de 30s**.
 4. Ao terminar, escolha:

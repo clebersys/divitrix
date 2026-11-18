@@ -1,8 +1,8 @@
-# Política de Privacidade — Divitrix
+# Política de Privacidade — DiviTrix
 
 **Última atualização: 13 de novembro de 2026**
 
-O **Divitrix** (`com.cleber.divitrix`) é um aplicativo Android que divide
+O **DiviTrix** (`com.cleber.divitrix`) é um aplicativo Android que divide
 vídeos em partes de aproximadamente 30 segundos, sem reencodificar, e permite
 compartilhar as partes por outros aplicativos — principalmente o WhatsApp.
 
@@ -43,7 +43,7 @@ Ao tocar em **Compartilhar no WhatsApp**, **Enviar como documento** ou
 **Compartilhar em outro app**, o Android abre o app de destino escolhido por
 você e entrega os arquivos selecionados. A partir desse momento, o tratamento
 dos dados passa a ser responsabilidade do aplicativo escolhido (por exemplo, a
-política de privacidade do WhatsApp). O Divitrix não tem controle nem acesso
+política de privacidade do WhatsApp). O DiviTrix não tem controle nem acesso
 ao que o app de destino faz com os arquivos.
 
 ## Armazenamento e exclusão
@@ -55,7 +55,7 @@ Android/data/com.cleber.divitrix/files/Movies/Divitrix/<data_hora>/
 ```
 
 Esses arquivos são apagados automaticamente quando você inicia uma nova divisão.
-Para removê-los imediatamente, use **Configurações → Apps → Divitrix →
+Para removê-los imediatamente, use **Configurações → Apps → DiviTrix →
 Armazenamento → Limpar dados**, ou desinstale o app. Nenhum dado permanece após
 a desinstalação.
 
@@ -78,11 +78,11 @@ Dúvidas sobre privacidade: abra uma issue em
 
 ---
 
-# Privacy Policy — Divitrix
+# Privacy Policy — DiviTrix
 
 **Last updated: November 13, 2026**
 
-**Divitrix** splits videos into ~30-second parts without re-encoding and lets
+**DiviTrix** splits videos into ~30-second parts without re-encoding and lets
 you share those parts through other apps, mainly WhatsApp.
 
 **The app does not collect, transmit, or store personal data on any server.**
