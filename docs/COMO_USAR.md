@@ -2,7 +2,7 @@
 
 ## Instalar
 
-1. Copie `Divitrix-1.0.0-release.apk` para o celular (cabo, Drive, Telegram etc.).
+1. Copie `DiviTrix-1.0.1-release.apk` para o celular (cabo, Drive, Telegram etc.).
 2. Abra o arquivo e permita **"Instalar apps desconhecidos"** para o app usado
    na abertura (Arquivos, Chrome etc.).
 3. Confirme a instalação.
@@ -10,7 +10,7 @@
 Via ADB:
 
 ```bash
-adb install "dist/Divitrix-1.0.0-release.apk"
+adb install "dist/DiviTrix-1.0.1-release.apk"
 ```
 
 O app não pede nenhuma permissão de câmera, microfone, contatos ou

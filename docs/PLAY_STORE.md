@@ -73,11 +73,11 @@ de assinatura.
 | Item | Valor |
 |---|---|
 | `applicationId` | `com.cleber.divitrix` |
-| `versionCode` | `1` |
-| `versionName` | `1.0.0` |
+| `versionCode` | `2` |
+| `versionName` | `1.0.1` |
 | `minSdk` / `targetSdk` / `compileSdk` | `26` / `36` / `36` |
-| SHA-256 do APK | `22013e7dd02b78ee0cd2872c90681e1fe799bcda295c84155effbbf0f3b940a7` |
-| SHA-256 do AAB | `429f502eb46b3558117da68f5ddef04c1f6efa6c34c80cf6697b684ac18312f8` |
+| SHA-256 do APK | `e4c8fb7d152c63d4e49e3c906ce0d43b96587f44d29c05ae5e1bb1079ecd9c00` |
+| SHA-256 do AAB | `043ab64783ed75f05adc44007ae5eb1d0bfbbb6dcc2e9e42410862fcbf8c904a` |
 
 > **App novo, ainda em desenvolvimento.** O `applicationId` deste projeto é `com.cleber.divitrix` desde o início da marca Divitrix. Como o pacote mudou em relação ao protótipo anterior (Divide 30s), o Android trata o Divitrix como um app instalado à parte: desinstale o protótipo antes de testar.
 
@@ -259,7 +259,7 @@ Classificação esperada: **Livre / Everyone**.
 
 ---
 
-## 9. Notas de versão sugeridas (v1.0.0)
+## 9. Notas de versão sugeridas (v1.0.1)
 
 ```
 Primeira versão do DiviTrix (ainda em desenvolvimento).

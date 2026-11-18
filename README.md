@@ -60,13 +60,13 @@ APK assinado pronto (também disponível na
 [release](https://github.com/clebersys/divitrix/releases)):
 
 ```
-dist/Divitrix-1.0.0-release.apk
+dist/DiviTrix-1.0.1-release.apk
 ```
 
 Via ADB:
 
 ```bash
-adb install "dist/Divitrix-1.0.0-release.apk"
+adb install "dist/DiviTrix-1.0.1-release.apk"
 ```
 
 Ou copie o APK para o celular e instale permitindo "fontes desconhecidas".
